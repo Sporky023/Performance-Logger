@@ -4,6 +4,7 @@ FIELD_SEPARATOR = "-----"
 
 logline = ""
 logline << Time.now.to_s
+logline << FIELD_SEPARATOR
 
 
 # get cpu usage and add it to the logline
